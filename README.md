@@ -17,7 +17,7 @@ Before running the script, make necessary modifications to suit your environment
 
 ## Usage
 To start the file monitoring process, run the script in PowerShell:
-```powershell.\EduHubFileWatcher.ps1```
+```powershell .\EduHubFileWatcher.ps1```
 
 ## Scheduled Task Setup
 To ensure the script runs automatically at system startup:
