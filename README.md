@@ -23,8 +23,8 @@ To start the file monitoring process, run the script in PowerShell:
 To ensure the script runs automatically at system startup:
 
 1. Set up the script as a scheduled task in the Task Scheduler on your eduSTAR server.
-2. Use the trigger "At system startup".
-3. Configure the task to "Run whether user is logged on or not".
+2. Use the trigger `At system startup`.
+3. Configure the task to `Run whether user is logged on or not`.
 4. Use a EDU002 service account for running the scheduled task.
 This setup ensures that the monitoring starts automatically every time the server boots up, regardless of user sessions.
 
